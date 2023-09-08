@@ -1,9 +1,9 @@
-## ASP .NET Core Web API application
-This repository contains a straightforward ASP .NET Core Web API application that adheres to a 3-tier architecture and follows SOLID principles for maintainability and scalability. The application also utilizes Microsoft SQL Server as the backend database.
+## ASP .NET Web API application
+This repository contains a straightforward ASP .NET Web API application that adheres to a 3-tier architecture and follows SOLID principles for maintainability and scalability. The application also utilizes Microsoft SQL Server as the backend database.
 
 ## Overview
 
--   **ASP .NET Core Web API**: This application serves as the backend for your web or mobile application, providing RESTful endpoints for data retrieval and manipulation.
+-   **ASP .NET Web API**: This application serves as the backend for your web or mobile application, providing RESTful endpoints for data retrieval and manipulation.
     
 -   **3-Tier Architecture**: The application is structured into three distinct layers:
     
