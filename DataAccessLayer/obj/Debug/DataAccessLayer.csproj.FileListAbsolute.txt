@@ -12,3 +12,6 @@ H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataA
 H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.db_init.resources
 H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.password_column_added.resources
+H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.login_table_added.resources
+H:\Study\Coding\ASP .NET\Employee Management API\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.changed_column.resources

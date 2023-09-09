@@ -17,7 +17,7 @@ namespace DataAccessLayer.Models.Entities
         public int EmployeeId { set; get; }
         public virtual Employee Employee { set; get; }
 
-        [Required(ErrorMessage = "Attendance date should not be empty!")]
+        [Required]
         public DateTime AttendanceDate { set; get; }
 
         [Required]

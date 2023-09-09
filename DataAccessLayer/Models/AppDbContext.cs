@@ -10,6 +10,8 @@ namespace DataAccessLayer.Models
 {
     public class AppDbContext : DbContext
     {
+        public DbSet<Login> Logins { set; get; }
+        public DbSet<Token> Tokens { set; get; }
         public DbSet<Employee> Employees { set; get; }
         public DbSet<EmployeeAttendance> EmployeeAttendances { set; get; }
     }

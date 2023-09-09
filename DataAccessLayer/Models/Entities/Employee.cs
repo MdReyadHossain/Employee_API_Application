@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,17 +19,16 @@ namespace DataAccessLayer.Models.Entities
         [Key]
         public int EmployeeId { set; get; }
 
-        [Required(ErrorMessage = "Name should not be empty!")]
+        [Required]
         public string EmpoyeeName { set; get; }
 
-        [Required(ErrorMessage = "Employee code should not be empty!")]
-        [MinLength(4)]
+        [Required]
         public string EmployeeCode { set; get; }
 
-        [Required(ErrorMessage = "Enter an amount of salary!")]
         public double EmployeeSalary { set; get; }
 
-        [Required]
         public int EmployeeSupervisor { set; get; }
+
+        public string Password { set; get; }
     }
 }
